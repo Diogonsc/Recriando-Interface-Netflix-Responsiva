@@ -1,0 +1,72 @@
+@media screen and (max-width:768px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    transition: 1s ease all;
+    margin-top: 8px;
+
+}
+
+.botao:hover{
+    background-color: var(--vermelho);
+    color:white;
+}
+
+.botao a{
+    text-decoration: none;
+    color: white;
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+}
+
+@media screen and (min-width: 1000px){
+    .descricao{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .menu-footer{
+        justify-content: space-around;
+        display: flex;
+        width: 300px;
+        margin: auto;
+        margin-bottom: 30px;
+    } 
+    
+    .menu-footer p{
+        margin-top: 5px;
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 300;
+    }
+    
+    .menu-footer i{
+        text-align: center;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .play i{
+        color: white;
+        font-size: 60px;
+        position: absolute;
+        top: 37%;
+        left: 30%;
+    }
+}
+
